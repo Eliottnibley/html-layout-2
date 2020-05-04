@@ -170,21 +170,42 @@ header {
 .otherLinks {
   width: 100%;
   height: 270px;
-  background-color: gray;
   display: flex;
   justify-content: center;
 }
 
 .otherLinks div {
-  min-width: 300px;
-  width:300px;
+  min-width: 250px;
+  width:250px;
+  height: 100%;
   margin: 20px;
-  border: 5px solid black;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  padding:10px;
+  text-align: center;
+  box-shadow: .1px .1px 3px 2px lightgray;
+  position: relative;
 }
 
 .otherLinks div img {
-  width: 80%;
+  padding: 10px;
+  width: 90%;
+  height:40%;
+  box-shadow: 5px, 2px
+}
+
+.otherLinks div p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.otherLinks div button {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  border: none;
+  color:skyblue;
+  background-color: white;
+}
+
+.otherLinks div button:hover {
+  text-decoration: underline;
 }
