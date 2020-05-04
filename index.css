@@ -13,6 +13,7 @@ header {
   background-color: black;
   display: flex;
   justify-content: center;
+  z-index: 2;
 }
 
 .headerContent {
@@ -170,4 +171,20 @@ header {
   width: 100%;
   height: 270px;
   background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.otherLinks div {
+  min-width: 300px;
+  width:300px;
+  margin: 20px;
+  border: 5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.otherLinks div img {
+  width: 80%;
 }
