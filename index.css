@@ -134,7 +134,6 @@ header {
 .caraSelector {
   width: 100%;
   height: 70px;
-  background-color:rgb(40, 40, 45);
   position: relative;
   bottom: 24px;
   text-align: center;
@@ -145,14 +144,15 @@ header {
 .caraSelector div {
   color: white;
   width: 200px;
- display: inline-block;
+  display: inline-block;
+  background-color: rgb(40, 40, 45);
   font-size: 12px;
   margin:0px;
   padding: 25px;
 }
 
 .caraSelector div:hover{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.0);
 }
 
 .secondHeader {
@@ -195,6 +195,10 @@ header {
 .otherLinks div p {
   font-weight: 500;
   font-size: 16px;
+}
+
+.otherLinks div p:hover {
+  text-decoration: underline;
 }
 
 .otherLinks div button {
