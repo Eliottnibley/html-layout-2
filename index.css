@@ -223,4 +223,23 @@ footer {
 
 footer img {
   height: 13px;
+  position: relative;
+  top: 15px;
+  left: 25px;
+}
+
+footer ul li {
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+  font-size: 12px;
+  left: 50px;;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+}
+
+.start {
+  margin-left: 150px;
 }
